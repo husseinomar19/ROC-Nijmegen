@@ -1,0 +1,309 @@
+*{
+margin: 0;
+padding: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+   
+    
+/** nav styel **/
+}
+header span{
+    color: #ff7800;
+}
+header h2 a{
+    text-decoration: none;
+    color: black;
+   
+}
+header h2 a:hover{
+    border-bottom: solid 1px black;
+}
+#spanroc{
+    color: black;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+margin: 1rem;
+text-decoration: none;
+color: black;
+}
+ul li a:hover{
+    border-bottom: solid 1px black;
+}
+#usericon{
+    position: absolute;
+    right: 100px;
+    font-size: 1.5rem;
+}
+#mijnroc{
+    padding: 0.5rem;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mijnroc:hover{
+    background-color: rgb(45, 43, 43);
+    /** zoeken div **/
+}
+.zoeken{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+}
+.contzoeken1{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.contzoeken1 h1{
+    color: #fff;
+    margin: 1rem;
+}
+.contzoeken1 span{
+    color: #ff7800;
+}
+.contzoeken2 input{
+border: none;
+padding: 0.4rem;
+width: 200px;
+}
+
+#zoeken{
+margin: 1rem;
+font-size: 1rem;
+padding: 0.3rem;
+background-color: #fff;
+border-radius: 5px;
+color: black;
+cursor: pointer;
+}
+#zoeken:hover{
+    background-color: #ff7800;
+}
+/** section melden roc software developer **/
+
+.melden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+
+
+}
+.conmleden1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+.conmleden1 span{
+    color: #ff7800;
+}
+.conmleden1 p{
+    font-size: 2rem;
+    
+}
+#melden{
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding: 0.7rem;
+    width: 150px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+#melden:hover{
+    background-color: rgb(52, 49, 49);
+}
+.conmleden2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conmleden2 img{
+    width: 80%;
+}
+/** opleiding mogelijkheden**/
+
+.opleiding{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    background-color: rgb(235, 231, 231);
+}
+.contopleiding{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(8, 8, 6,5);
+
+}
+.contopleiding:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.contopleiding h2{
+    margin-bottom: 2rem;
+}
+.info{
+    background-color: black;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+.span{
+    color: #ff7800;
+}
+/** Hier beginnt contact met Roc nijmegen **/
+.vragenintro{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vragenintro span{
+    color: #ff7800;
+
+}
+.vragenintro p{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.vragenintro i{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/** medewerker gegevens**/
+.medewerker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contmedewerker{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+   
+}
+.contmedewerker img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10rem;
+    
+}
+.contmedewerker a{
+    color: black;
+}
+/** contact met roc opnemen **/
+.contactinfomatie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continformatie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.continformatie i{
+    font-size: 2rem;
+    margin: 1rem;
+    color: black;
+    background-color: rgb(220, 227, 233);
+    padding: 1rem;
+    border-radius: 10rem;
+}
+.continformatie i:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.continformatie  a {
+  color: black;
+}
+/** Hier komt de footer en alle informatie **/
+.contentlistmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+    gap: 2rem;
+    background-color: black;
+    color: #fff;
+    height: 50vh;
+}
+.contentlist {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+
+}
+.contentlist a{
+    margin: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    width: auto;
+
+}
+.contentlist a:hover{
+   transform: scale(1.1);
+   transition: 1s;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 41, 41);
+
+}
+.icon i{
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.icon i:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2 h2{
+    margin: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.icon2 h2:hover{
+    border-bottom: solid 1px white;
+}
+
